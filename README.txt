@@ -1,3 +1,3 @@
-*KICAD PCB files for TSL1406RS linear photoarray mounting board*
+KICAD PCB files for TSL1406R linear photoarray mounting board
 
 

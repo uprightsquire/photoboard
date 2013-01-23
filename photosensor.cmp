@@ -1,10 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Tue 22 Jan 2013 21:37:39 EST
+Cmp-Mod V01 Created by PcbNew date = Wed 23 Jan 2013 18:02:20 EST
+
+BeginCmp
+TimeStamp = /50FF07A3;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /50FE4633;
 Reference = P1;
 ValeurCmp = TSL1406R;
-IdModule  = TSL1406RS;
+IdModule  = TSL1406R;
 EndCmp
 
 BeginCmp
@@ -15,9 +22,9 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FE51FD;
+TimeStamp = /50FF8299;
 Reference = T1;
-ValeurCmp = 5PIN;
+ValeurCmp = 6PIN;
 IdModule  = 5Pin;
 EndCmp
 

@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Tue 22 Jan 2013 21:37:39 EST
+
+BeginCmp
+TimeStamp = /50FE4633;
+Reference = P1;
+ValeurCmp = TSL1406R;
+IdModule  = TSL1406RS;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FE6953;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FE51FD;
+Reference = T1;
+ValeurCmp = 5PIN;
+IdModule  = 5Pin;
+EndCmp
+
+EndListe

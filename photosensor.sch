@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Jan 2013 08:49:51 EST
+EESchema Schematic File Version 2  date Thu 24 Jan 2013 09:04:31 EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "22 jan 2013"
+Date "23 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -73,39 +73,30 @@ F 1 "GND" H 4550 5630 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5PIN T1
-U 1 1 50FE51FD
-P 6950 4500
-F 0 "T1" H 6950 4250 60  0000 C CNN
-F 1 "5PIN" H 6950 4400 60  0000 C CNN
-	1    6950 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L PWR_FLAG #FLG03
 U 1 1 50FE68DF
-P 3900 3400
-F 0 "#FLG03" H 3900 3495 30  0001 C CNN
-F 1 "PWR_FLAG" H 3900 3580 30  0000 C CNN
-	1    3900 3400
+P 1700 4400
+F 0 "#FLG03" H 1700 4495 30  0001 C CNN
+F 1 "PWR_FLAG" H 1700 4580 30  0000 C CNN
+	1    1700 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 50FE6911
-P 4000 5700
-F 0 "#FLG04" H 4000 5795 30  0001 C CNN
-F 1 "PWR_FLAG" H 4000 5880 30  0000 C CNN
-	1    4000 5700
+P 1700 4600
+F 0 "#FLG04" H 1700 4695 30  0001 C CNN
+F 1 "PWR_FLAG" H 1700 4780 30  0000 C CNN
+	1    1700 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_2 P2
 U 1 1 50FE6953
-P 2000 4500
-F 0 "P2" V 1950 4500 40  0000 C CNN
-F 1 "CONN_2" V 2050 4500 40  0000 C CNN
-	1    2000 4500
+P 2200 4500
+F 0 "P2" V 2150 4500 40  0000 C CNN
+F 1 "CONN_2" V 2250 4500 40  0000 C CNN
+	1    2200 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -127,10 +118,10 @@ F 1 "GND" H 1650 4530 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C1
 U 1 1 50FF07A3
 P 4550 3600
-F 0 "C?" H 4600 3700 50  0000 L CNN
+F 0 "C1" H 4600 3700 50  0000 L CNN
 F 1 "0.1uF" H 4600 3500 50  0000 L CNN
 	1    4550 3600
 	1    0    0    -1  
@@ -139,8 +130,6 @@ Wire Wire Line
 	4900 4200 4550 4200
 Wire Wire Line
 	4550 3800 4550 5700
-Wire Wire Line
-	3900 3400 6750 3400
 Wire Wire Line
 	6100 3400 6100 4200
 Wire Wire Line
@@ -203,8 +192,22 @@ Connection ~ 4550 5700
 Wire Wire Line
 	7250 3700 7250 4200
 Connection ~ 6000 3700
-Connection ~ 6400 3700
-Connection ~ 6400 5700
 Wire Wire Line
-	4550 5700 4000 5700
+	4500 3400 6750 3400
+Connection ~ 4550 3400
+$Comp
+L 6PIN T1
+U 1 1 50FF8299
+P 6950 4500
+F 0 "T1" H 6950 4200 60  0000 C CNN
+F 1 "6PIN" H 7000 4300 60  0000 C CNN
+	1    6950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4400 1850 4400
+Connection ~ 1700 4400
+Wire Wire Line
+	1650 4600 1850 4600
+Connection ~ 1700 4600
 $EndSCHEMATC

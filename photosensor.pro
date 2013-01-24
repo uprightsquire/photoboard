@@ -1,13 +1,11 @@
-update=Wed 23 Jan 2013 17:29:22 EST
+update=Thu 24 Jan 2013 13:15:23 EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../uprightsquire
@@ -79,3 +77,5 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/uprightsquire/electronics/Kicad components/custom
+[general]
+version=1
